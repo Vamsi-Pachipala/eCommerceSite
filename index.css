@@ -1,0 +1,123 @@
+nav{
+    display: flex;
+    gap: 20px;
+    padding: 10px 20px;
+    justify-content: space-between;
+}
+nav > h1{
+    color: white;
+}
+nav > div{
+    display: flex;
+    width: 85%;
+    gap: 20px;
+    align-items: center;
+    
+}
+nav input{
+    flex-grow: 1;
+    padding: 6px;
+    border-radius: 10px;
+    background-color: rgba(255,255,255,0.2);
+}
+div>button{
+    background-color:rgba(38,38,38,1) ;
+    color: white;
+    padding: 6px;
+    border-radius: 15px;
+}
+.abovesection{
+    background-color:rgba(38,38,38,1) ;
+    margin:20px 50px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.headcontainer{
+    display: flex;
+    justify-content: space-between;
+}
+.abovesection{
+    margin: 20px 50px;
+}
+.small-img{
+    width: 60px;
+}
+.big-img{
+    width: 150px;
+    height: 150px;
+}
+.item{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin: 15px 0px;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.right>button{
+    padding: 10px;
+    border-radius: 40px;
+    background-color: #FECB03;
+    color:black;
+    align-self: center;
+}
+.categeory
+{
+    margin: 25px 50px;
+    padding: 5px;
+}
+.card_container{
+    margin-top:30px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+    gap: 7px;
+
+}
+.card{
+    border: 2px solid rgba(38,38,38,1);
+    border-radius: 10px;
+    width: 30%;
+    padding: 5px;
+    margin-top: 20px;
+    gap: 20px;
+    padding-bottom: 60px;
+    padding-right: 6px;
+    position: relative;
+}
+.card > p{
+    columns: rgba(255,255,255,0.8);
+}
+.card >button{
+
+    background-color: #FECB03;
+    color: black;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+.footer{
+    display: flex;
+    background-color:rgba(38,38,38,1) ;
+    margin:20px 50px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.sec1 > a{
+    color:white;
+    text-decoration-line: none;
+    display: flex;
+    flex-direction: column;
+}
+.media{
+    display: flex;
+    gap: 200px;
+}
+.sec1 >p{
+    flex-grow: 1;
+    width: 80%;
+    color:rgba(255,255,255,0.8);
+}
